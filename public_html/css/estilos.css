@@ -1,0 +1,312 @@
+body {
+    background-image: linear-gradient(90deg,#fefefe , #051127, #fefefe);
+    background-attachment: fixed;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.espaco {
+    height: 1px;
+}
+/* Cabeçalho */
+header {
+    margin-top: 3px;
+    background-color: rgba(0,0,0,0.5 ) !important;
+    height: 80px;
+}
+.logo2 p {
+    margin-top: 20px;
+    overflow: auto;
+    font-size: 1.7em;
+    letter-spacing: 10px;
+    font-variant: small-caps;
+    color: #fefefe;
+}
+#logo img{
+    height: 70px;
+    margin-top: 4px;
+
+
+}
+
+
+
+#tudo, footer {
+    background-color: rgba(0,0,0,0.1 ) !important;
+}
+* {
+
+    box-sizing: border-box;
+}
+footer {
+
+}
+
+nav {
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5  ) !important;
+    border-radius: 0px 0px 0px 20px;
+    box-shadow: -1px 3px 6px 1px;
+}
+ul {
+    text-align: center;
+    list-style: none;
+    padding-left: 0px;
+
+}
+nav ul li{
+
+}
+nav ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.3em;
+    transition: 0.7s;
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    word-spacing: 10px;
+    color: #fefefe;
+}
+nav ul li a:hover{
+    color: white;
+    background-color: rgba(0,0,0,0.5  ) !important;
+    padding-left: 25px;
+}
+.ativo {
+    color: #cc2323;
+    background-color: #d2d2d2;
+    padding-left: 15px;
+}
+.naoAtivo{
+    color: white;
+}
+#boxSlide {
+    height: 600px;
+}
+section{
+    box-shadow: 5px 20px 10px grey;
+}
+#videos {
+
+    padding: 0px!important;
+}
+.corVideos {
+    background-color: #d4d4d4;
+}
+#caixasVideos {
+    padding: 20px!important;
+
+}
+section #videos {
+
+    margin-bottom: 0px!important;
+
+}
+.tituloCursos {
+    background-color: #1b469c;
+    color: white;
+    text-align: center;
+}
+.cursos {
+    text-align: center;
+    margin: 20px;
+}
+
+.imagensCursos img {
+    width: 100%;
+}
+.efeito img {
+    background: #1abc9c;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+.efeito img:hover {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+    border-radius: 0px;
+}
+@-webkit-keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes flash {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.cursos img {
+    min-height:  149px;
+    max-height: 151px;
+    min-width: 199px;
+    max-width: 201px;
+}
+.cursos p {
+    margin: 0 auto;
+    font-weight: bold;
+    width: 200px;
+}
+
+.cursos span {
+    display: block;
+}
+.cursos p a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    background-color: #1b469c;
+    border: 1px solid #000;
+
+}
+.cursos p a:hover {
+    background-color: #cc2323;
+    color: white;
+
+}
+#footer1 {
+    height: 395px;
+    background-color: rgba(0,0,0,0.9 ) !important;
+}
+@media only screen and (max-width: 800px){
+    #footer1 {
+        height: 1150px;
+    }
+}
+#footer2 {
+    margin-bottom: 0px!important;
+    border-radius: 0px 0px 20px 20px;
+    border-top: 0px;
+    height: 30px;
+    box-shadow: 5px 10px 10px black;
+}
+#rodape {
+    color: white;
+    padding-top: 50px;
+    margin-left: 10%;
+}
+#facebook:hover {
+    background-color: #3b5998!important;
+}
+#youtube:hover {
+    background-color: #ea2d0d!important;
+}
+#twitter:hover {
+    background-color: #2eacf6!important;
+}
+.tituloMapaDoSite {
+    font-size: 20px;
+    text-align: center;
+}
+.padding {
+    padding: 5px;
+}
+.tituloMapaDoSite {
+    background-color: #1b469c;
+    border-radius: 10px;
+}
+.cursosRodape ul {
+    list-style: none;
+    margin-top: 15px;
+    overflow: auto;
+}
+.itensRodape {
+    background-color: rgba(255,255,255,0.1)!important;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.cursosRodape ul li {
+
+}
+.padding ul {
+    overflow: auto;
+}
+.padding ul li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.padding ul li a:hover {
+    background-color: rgba(255,255,255,0.1)!important;
+    padding-left: 5px;
+}
+.padding p a {
+    color: white;
+}
+#quemSomos p {
+    padding: 10px;
+    line-height: 20px;
+}
+
+#formulario {
+    width: 285px;
+    background-color: rgba(255,255,255,0.1)!important;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.btn_submit {
+    width: 265px;
+}
+input {
+    width: 100%;
+
+}
+label {
+    line-height: 25px;
+}
+.btn_submit {
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#email {
+    margin-right: 1px;
+
+}
+#tituloFaleConosco {
+    margin-bottom: 15px;
+
+}
+form {
+    padding: 10px!important;
+    margin: auto;
+}
+
+
+
+.color1 {
+    color: #1a459d; /* endeavour */
+}
+.color2 {
+    color: #fefefe; /* twilight blue */
+}
+.color3 {
+    color: #000000;
+}
+.color4 {
+    color: #051127;
+}
+.color5 {
+    color: #cc2323;
+}
+.color6 {
+    color: #a24343; /* roof terracotta */
+}
+.integrantes{
+    height: 150px;
+    text-align: center;
+}
+.estenderObody{
+    height: 450px;
+}

@@ -1,0 +1,9 @@
+table{
+    padding: 2px;
+    width: 100%;
+    overflow: auto;
+}
+table td{
+    max-width: 250px;
+    overflow: auto;
+}

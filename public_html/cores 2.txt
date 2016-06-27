@@ -1,0 +1,18 @@
+.color1 {
+    color: #1a459d; /* endeavour */
+}
+.color2 {
+    color: #fefefe; /* twilight blue */
+}
+.color3 {
+    color: #000000;
+}
+.color4 {
+    color: #051127;
+}
+.color5 {
+    color: #cc2323;
+}
+.color6 {
+    color: #a24343; /* roof terracotta */
+}

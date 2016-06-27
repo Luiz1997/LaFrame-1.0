@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*caixa mae do slider*/
+.slide{
+    padding-top: 0px;
+    margin: auto;
+    position: relative;
+}
+/*caixa imagem*/
+.slider{
+
+    height: 600px;
+    overflow: hidden;
+    margin: auto;
+}
+/*caixa do texto*/
+.slider-item{
+    width: 100%!important;
+    height: 100%!important;
+    height: 80px;
+    position: relative;
+}
+.slider-item img{
+    height: 100%;
+    width: 100%;
+}
+/*legenda dentro da imagem*/
+.slider-item p{
+    padding: 10px;
+    width: 200px;
+    font: normal 13px Arial;
+    line-height: 15px;
+    color: #000;
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+/*pager -indice de qual imagem que esta*/
+.pager{
+    position: absolute;
+    z-index: 999;
+    bottom: 7px;
+    left:45%;
+
+}
+.pager a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: #1b469c;
+    float: left;
+    margin: 0 5px;
+    cursor: pointer;
+    border: 1px black solid;
+}
+.pager a:hover{
+    background: #ccc;
+}
+.pager a.sliderAtivado{
+    background: #cc2323;
+}
+

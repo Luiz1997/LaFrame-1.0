@@ -1,0 +1,30 @@
+.color1 {
+    color: #1b469c; /* endeavour */
+}
+.color2 {
+    color: #fefefe; /* twilight blue */
+}
+.color3 {
+    color: #849ac5; /* polo blue */
+}
+.color4 {
+    color: #f4f4f4; /* twilight blue */
+}
+.color5 {
+    color: #d4d4d4; /* mercury */
+}
+.color6 {
+    color: #f6f6f6; /* twilight blue */
+}
+.color7 {
+    color: #f3f3f3; /* twilight blue */
+}
+.color8 {
+    color: #bf9494; /* quicksand */
+}
+.color9 {
+    color: #ffffff; /* twilight blue */
+}
+.color10 {
+    color: #dab1b1; /* blossom */
+}
