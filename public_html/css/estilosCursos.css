@@ -1,16 +1,8 @@
-.conteudoCursos p{
-    margin-top: 25px;
-    font-size: 1.5em;
-    text-align: center;
-}
 * {
     margin: auto;
 }
-.videoaula1, .videoaula2 {
-    text-align: center;
-}
-.videoaula1, .videoaula2 div {
-
+.conteudoCursos {
+    padding: 10px;
 }
 .videoaula1 p, .videoaula2 p {
     line-height: 70px;
@@ -24,31 +16,15 @@
     margin-top: 40px;
     border-top: 3px black solid;
 }
-.voltar a{
-    float: left;
-    transition: 0.3s;
-    height: 50px;
-    display: block;
-    text-decoration: none;
-    padding-top: 15px;
-    border-radius: 20px;
-    background-color: #cc2323;
-    width: 100px;
-    color: white;
-    box-shadow: 5px 5px 10px black;
-}
-.voltar a:hover {
-    background-color: black;
-}
 .botao a {
+    text-align: center;
     float: right;
     height: 50px;
     display: block;
     text-decoration: none;
-    padding-top: 8px;
-    border-radius: 20px;
+    padding-top: 15px;
     background-color: #cc2323;
-    width: 100px;
+    width: 150px;
     color: white;
     box-shadow: 5px 5px 10px black;
     transition: 0.3s;
@@ -72,3 +48,23 @@
 .questionario a:hover {
     background-color: black;
 }
+
+.video {
+    margin-right: 10px;
+    height: 350px;
+    width: 430px;
+}
+
+.foto {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    float: right;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+
+
+
